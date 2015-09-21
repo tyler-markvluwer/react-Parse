@@ -4,10 +4,11 @@ TodoList = require('./todoList')
 TodoListView = require('./todoListView')
 
 # import the Parse api keys. Kept in separate files to keep away from public github
+# in the .gitignore, you will see that these files are not pushed
 key1 = require('./key1')
 key2 = require('./key2')
 
-# Parse imported in index.html
+# Parse imported above
 Parse.initialize(key1, key2);
 
 todoList = new TodoList('my_list')

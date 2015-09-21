@@ -8,7 +8,7 @@ ParseTodo = Parse.Object.extend("TodoList")
 class TodoList extends EventEmitter
     constructor: (@list_name, @list_items) ->
         if typeof @list_items is "undefined"
-            @list_items = [] #contains strings
+            @list_items = [] # contains strings
 
         @parseQuery = new Parse.Query(ParseTodo)
         
