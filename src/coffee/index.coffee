@@ -7,9 +7,6 @@ TodoListView = require('./todoListView')
 key1 = require('./key1')
 key2 = require('./key2')
 
-# Parse imported above
-Parse.initialize(key1, key2);
-
 todoList = new TodoList('my_list')
 
 window.todoList = todoList # makes list global and available on console
