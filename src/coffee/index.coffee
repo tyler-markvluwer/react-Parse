@@ -1,5 +1,4 @@
 React = require('react') # no ./ prefix
-Parse = require('parse')
 TodoList = require('./todoList')
 TodoListView = require('./todoListView')
 
